@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height:auto;
+    background:rgb(32, 203, 209);
+}
+/* inicio header*/
+header{
+    width: 99%;
+    height: 75px;
+    background-color: rgb(12, 10, 10);
+    border: 7px double gray;
+}
+
+header h1{
+    display: block;
+    float: left;
+    font-size: 30px;
+    margin: 25px 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(245, 97, 11);
+}
+
+nav{
+    display: block;
+    float:right;
+}
+nav ul li{
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 25px 25px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/*fin header*/

@@ -6,14 +6,13 @@
 body{
     width: 100%;
     height:auto;
-    background:rgb(32, 203, 209);
+    background: black;
 }
 /* inicio header*/
 header{
-    width: 99%;
+    width: 100%;
     height: 75px;
     background-color: rgb(12, 10, 10);
-    border: 7px double gray;
 }
 
 header h1{
@@ -51,22 +50,27 @@ nav ul li a:hover{
 
 .container{
     margin: auto;
-    background-color: white;
-    width: 1250px;
-    padding: 30px;
-
+    background-color: gray;
+    width: 100%;
+    height: auto;
+    padding: 0px;
 }
 
 .container ul li{
     margin: 0;
-    padding: 0;
+    padding: 0px;
     list-style: none;
 }
 
 ul.slider{
     position: relative;
-    width: 1200px;
-    height: 300px;
+    width: 100%;
+    height: 400px;
+}
+
+ul.slider h1{
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 ul.slider li{
@@ -77,12 +81,12 @@ ul.slider li{
     width: inherit;
     height: inherit;
     background-color: white;
-    transition: opacity .5s;
+    transition: opacity 0.5s;
 }
 
 ul.slider li img{
     width: 100%;
-    height: 300px;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -96,7 +100,7 @@ ul.slider li:target{
 
 .menu{
     text-align: center;
-    margin: 20px;
+    margin: 10px;
 }
 
 .menu li{
@@ -106,13 +110,12 @@ ul.slider li:target{
 
 .menu li a{
     display: inline-block;
-    color: white;
     text-decoration: none;
-    background-color: gray;
+    background-color: white;
     padding: 5px;
     margin: 2px;
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     font-size: 10px;
     border-radius: 100%;
 }
